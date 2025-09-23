@@ -1,40 +1,24 @@
 from turtle import *
 
 def square():
-    fillcolor("blue")
-    begin_fill()
-    pencolor("black")
-    fd(100)
-    right(90)
-    fd(100)
-    right(90)
-    fd(100)
-    right(90)
-    fd(100)
-    end_fill()
-    
+    for counter in range(4):
+         fd(120)
+         right(90)    
 square()
 
 
 def triangle():
-    fillcolor("yellow")
-    begin_fill()
-    pencolor("black")
-    fd(100)
-    left(120)
-    fd(100)
-    left(120)
-    fd(100)
-    left(120)
-    end_fill()
+    for counter in range(3):
+        fd(45)
+        left(120)
     
 triangle()
-
-import turtle
-
-radius = 40
-turtle.circle(radius)
-input()
+# 
+# import turtle
+# 
+# radius = 40
+# turtle.circle(radius)
+# input()
 
 
 
